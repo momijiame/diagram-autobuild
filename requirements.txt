@@ -1,0 +1,4 @@
+click>=5.1
+future>=0.15.2
+Jinja2>=2.8
+livereload>=2.4.0
