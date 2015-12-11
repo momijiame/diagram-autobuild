@@ -1,5 +1,7 @@
 # diagram-autobuild
 
+![diagram-autobuild-demo](https://raw.githubusercontent.com/wiki/momijiame/diagram-autobuild/images/diagram-autobuild.gif)
+
 ## What is this?
 
 diagram-autobuild improves the efficiency of the making diagrams.
