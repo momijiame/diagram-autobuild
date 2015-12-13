@@ -34,6 +34,13 @@ If the source file is modified, rebuild the diagram, and the browser which indic
 ## How to install
 
 diagram-autobuild is installed by using pip of Python's package manager.
+
+```
+$ pip install diagram-autobuild
+```
+
+or
+
 ```
 $ pip install git+https://github.com/momijiame/diagram-autobuild.git
 ```
