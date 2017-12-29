@@ -12,6 +12,7 @@ diagram-autobuild is supporting the following tools.
 - nwdiag (https://pypi.python.org/pypi/nwdiag)
 - actdiag (https://pypi.python.org/pypi/actdiag)
 - seqdiag (https://pypi.python.org/pypi/seqdiag)
+- ERAlchemy (https://pypi.python.org/pypi/ERAlchemy)
 
 ### Background
 
@@ -75,6 +76,13 @@ Example (blockdiag):
 $ ls
 sample.diag
 $ diagram-autobuild blockdiag sample.diag
+```
+
+Example (ERAlchemy):
+```
+$ ls
+sample.er
+$ diagram-autobuild eralchemy sample.er
 ```
 
 If it succeed, open your default browser and you can see the diagram.
