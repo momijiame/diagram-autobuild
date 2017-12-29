@@ -38,6 +38,21 @@ class GraphvizBuild(BuildCommand):
         return command
 
 
+class ERAlchemyBuild(BuildCommand):
+
+    @property
+    def destination(self):
+        return os.path.join(self.dst_dir, 'out.png')
+
+    def __str__(self):
+        command = 'eralchemy {opts} -i {src_file} -o {destination}'.format(
+            destination=self.destination,
+            src_file=self.src_file,
+            opts=self.opts,
+        )
+        return command
+
+
 class BlockdiagSeriesBuild(BuildCommand):
 
     @abc.abstractproperty
@@ -92,6 +107,7 @@ _MAPPINGS = {
     'nwdiag': NwdiagBuild,
     'seqdiag': SeqdiagBuild,
     'actdiag': ActdiagBuild,
+    'eralchemy': ERAlchemyBuild,
 }
 
 
